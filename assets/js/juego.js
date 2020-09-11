@@ -17,11 +17,23 @@ const crearDeck = () => {
         }
     }
 
-
-    console.log(deck);
     deck = _.shuffle(deck);
     console.log(deck);
     return deck;
 }
 
 crearDeck();
+
+// Función para tomar cartas
+const pedirCarta = () => {
+    if(deck.length === 0){
+        throw 'No hay cartas en el deck';
+    }
+    const carta = deck.pop();
+
+    console.log(deck);
+    console.log(carta); //La carta debe ser de la baraja
+    return carta;
+}
+
+// pedirCarta();

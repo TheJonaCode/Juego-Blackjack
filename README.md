@@ -1,6 +1,6 @@
 <h1 align="center">Blackjack game</h1>
 <p align="center">
-  Juego de Blackjack hecho con Javascript"
+  Juego de Blackjack hecho con Javascript
 </p>
 
 <p align="center">
